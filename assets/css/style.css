@@ -16,6 +16,11 @@
       --light: #FFFFFF;
 }
 
+body {
+      font-family: 'Passion One', cursive;
+      font-family: 'Titillium Web', sans-serif;
+}
+
 /* #region Debug */
 
 .debug header .container {
@@ -111,7 +116,9 @@
       width: 100%;
 }
 
-
+a {
+      text-decoration: none;
+}
 li {
       list-style: none;
 }
@@ -131,6 +138,7 @@ h3 {
 #site_header {
       background-color: var(--primary);
       position: fixed;
+      z-index: 1000;
       width: 100%;
 }
 
@@ -196,22 +204,32 @@ a.btn {
 
 /* #region Demo */
 
-.card{
+.card {
       background-color: var(--primary_light);
       color: var(--primary);
       border-radius: 1rem;
+      height: 400px;
 }
 
 .card_demo {
       margin-bottom: 1rem;
+      line-height: 2rem;
+}
+.card_bio {
+      padding: 50px;
 }
 .card_bio > p {
       margin: 2rem 0;
       color: var(--darkness);
 }
 
+.card_image {
+      text-align: center;
+      align-self: flex-end;
+      line-height: 0;
+}
 .card_image > img {
-      width: 100%;
+      width: 70%;
 }
 
 .btn_apple {
@@ -227,7 +245,9 @@ a.btn {
       background-color: var(--primary_light);
       color: var(--primary);
       border-radius: 1rem;
-      padding: 1rem;
+      padding: 50px;
+      
+      height: 400px;
 }
 
 .icon_title > i {
@@ -351,6 +371,48 @@ a.btn {
 }
 /* #endregion Benefits */
 
+/* #region AboutUs */
+
+.about_us h1 {
+      color: var(--secondary);
+      font-size: 60px;
+}
+
+.about_us .col_12 {
+      padding: 50px 20px;
+      line-height: 2rem;
+}
+
+.avatar_about {
+      position: relative;
+}
+.avatar_about > i {
+      font-size: 150px;
+      color: var(--secondary);
+      position: absolute;
+      top: 0;
+      right: 80px;
+}
+
+.avatar_about > img {
+      width: 80%;
+      border-radius: 50%;
+}
+
+.bio_about_us {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--secondary);
+}
+
+.btn_about_us {
+      background-color: var(--secondary);
+      color: var(--light);
+      font-size: 1.3rem;
+      padding: 0.2rem 0.8rem;
+      border-radius: 15px;
+}
+/* #endregion AboutUs */
 /* #endregion Main */
 
 /* #region footer */
