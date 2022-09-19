@@ -35,6 +35,10 @@
       height: 100px;
 }
 
+.debug .container_slim {
+      height: 150px;
+      border: 1px solid red;
+}
 /* #endregion Debug */
 
 
@@ -115,8 +119,14 @@ header .container {
 /* #region Main */
 
 .planning,
-.benefits {
+.benefits,
+.call_to_action {
       background-color: var(--secondary);
+}
+
+.container_slim {
+      width: 60%;
+      margin: 0 auto;
 }
 
 /* #endregion Main */
