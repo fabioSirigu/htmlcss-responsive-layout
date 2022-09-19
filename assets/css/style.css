@@ -57,6 +57,7 @@
 .d_flex {
       display: flex;
 }
+
 [class^="col_"]{
       padding: 0 1rem;
 
@@ -119,6 +120,10 @@ h3 {
       font-weight: bold;
       font-size: 1.3rem;
 }
+
+.text_center {
+      text-align: center;
+}
 /* #endregion Utilities */
 
 /* #region Header */
@@ -170,8 +175,6 @@ header .container {
 a.btn {
       color: var(--darkness);
 }
-
-
 
 /* #endregion Header */
 
@@ -279,6 +282,37 @@ a.btn {
       border-radius: 50%;
 }
 /* #endregion Planning */
+
+/* #region Partners */
+
+.col_12.text_center h1 {
+      color: var(--secondary);
+      font-size: 2.5rem;
+      padding: 1.2rem 0;
+}
+
+.avatar_partner img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      border-radius: 50%;
+}
+.card_partner {
+      background-color: var(--secondary);
+      align-items: center;
+      padding: 2rem 0;
+      border-radius: 2rem;
+      color: var(--light);
+}
+.partners .row > div {
+      margin: 1rem 0;
+}
+
+.bio_partner p {
+      padding-bottom: 2rem;
+}
+/* #endregion Partners */
+
+
 /* #endregion Main */
 
 /* #region footer */
