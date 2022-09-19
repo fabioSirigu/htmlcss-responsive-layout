@@ -115,6 +115,10 @@ li {
       list-style: none;
 }
 
+h3 {
+      font-weight: bold;
+      font-size: 1.3rem;
+}
 /* #endregion Utilities */
 
 /* #region Header */
@@ -166,6 +170,7 @@ header .container {
 a.btn {
       color: var(--darkness);
 }
+
 
 
 /* #endregion Header */
@@ -235,6 +240,45 @@ a.btn {
 }
 /* #endregion Demo */
 
+/* #region Planning */
+.planning {
+      color: var(--light);
+}
+
+.planning .row {
+      padding: 3rem;
+}
+.planning h3 {
+      margin: 2rem 0;
+}
+.planning img {
+      width: 100%;
+}
+
+.card_planning {
+      width: 80%;
+      text-align: center;
+      background-color: var(--light);
+      padding: 2rem;
+      border-radius: 2rem;
+      color: var(--darkness);
+      align-self: end;
+}
+
+.card_planning > img {
+      width: 70%;
+}
+.card_planning h3,
+.card_planning p {
+      padding:0.5rem 0;
+}
+
+.card_planning > i {
+      background-color: var(--secondary);
+      padding: 0.9rem 1rem;
+      border-radius: 50%;
+}
+/* #endregion Planning */
 /* #endregion Main */
 
 /* #region footer */
