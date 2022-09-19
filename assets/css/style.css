@@ -188,15 +188,17 @@ a.btn {
 
 /* #region Demo */
 
-.card_demo {
+.card{
       background-color: var(--primary_light);
       color: var(--primary);
       border-radius: 1rem;
-      padding: 1rem;
 }
 
+.card_demo {
+      margin-bottom: 1rem;
+}
 .card_bio > p {
-      padding: 1rem 0;
+      margin: 2rem 0;
       color: var(--darkness);
 }
 
@@ -213,9 +215,11 @@ a.btn {
 }
 
 .icon_title {
-      width: 80%;
-      margin: auto;
       text-align: center;
+      background-color: var(--primary_light);
+      color: var(--primary);
+      border-radius: 1rem;
+      padding: 1rem;
 }
 
 .icon_title > i {
@@ -223,7 +227,7 @@ a.btn {
 }
 
 .icon_title > h3 {
-      padding: 2rem 0;
+      margin: 2rem 0;
 }
 
 .icon_title > p {
