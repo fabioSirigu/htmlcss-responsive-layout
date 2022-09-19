@@ -5,3 +5,13 @@
       padding: 0;
       box-sizing: border-box;
 }
+
+:root {
+      --primary: #0084FD;
+      --primary_light: #B5DDFF;
+      --secondary: #9792E4;
+      --dark: #333333;
+      --darkness: #000000;
+      --alert: #FDC15F;
+      --light: #FFFFFF;
+}
