@@ -112,16 +112,29 @@ header .container {
 }
 /* #endregion Header */
 
+/* #region Main */
+
+.planning {
+      background-color: var(--secondary);
+}
+
+/* #endregion Main */
+
 /* #region mediaquery */
 
 @media screen and (min-width:769px){
+      .col_md_4 {
+            width: calc((100% / 12) * 4);
+      }
+
+      .col_md_6 {
+            width: calc((100% / 12) * 6);
+      }
+
       .col_md_8 {
              width: calc((100% / 12) * 8);
       }
 
-      .col_md_4 {
-            width: calc((100% / 12) * 4);
-      }
 }
 
 /* #endregion mediaquery */
