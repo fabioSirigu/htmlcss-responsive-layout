@@ -131,6 +131,14 @@ header .container {
 
 /* #endregion Main */
 
+/* #region footer */
+
+#site_footer {
+      background-color: var(--dark);
+}
+
+/* #endregion footer */
+
 /* #region mediaquery */
 
 @media screen and (min-width:480px){
