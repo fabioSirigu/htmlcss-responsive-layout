@@ -412,11 +412,11 @@ a.btn {
       position: relative;
 }
 .avatar_about > i {
-      font-size: 150px;
+      font-size: xxx-large;
       color: var(--secondary);
       position: absolute;
       top: 0;
-      right: 80px;
+      right: 25%;
 }
 
 .avatar_about > img {
@@ -502,6 +502,10 @@ a.btn {
       vertical-align: middle;
 }
 
+.call_to_action .container_slim_bottom > p {
+      margin-top: 2rem;
+}
+
 
 /* #endregion CallToAction */
 /* #endregion Main */
@@ -526,19 +530,8 @@ a.btn {
 
 /* #region mediaquery */
 
-@media screen and (max-width:480px){
-      /* .col_md_4 {
-            width: calc((100% / 12) * 4);
-      }
-
-      .col_md_6 {
-            width: calc((100% / 12) * 6);
-      }
-
-      .col_md_8 {
-             width: calc((100% / 12) * 8);
-      } */
-
+@media screen and (min-width:480px) and (max-width: 769px){
+      
       .container {
             max-width: 432px;
       }
@@ -612,21 +605,100 @@ a.btn {
       
 }
 
-@media screen and (min-width:769px){
-      .col_lg_4 {
+@media screen and (min-width: 770px) and (max-width: 898px){
+      
+      .col_md_4 {
             width: calc((100% / 12) * 4);
       }
 
-      .right_menu {
-            display: block;
+      .col_md_6 {
+            width: calc((100% / 12) * 6);
       }
 
-      .dropdown_menu {
+      .col_md_8 {
+             width: calc((100% / 12) * 8);
+      }
+
+      .container {
+            max-width: 722px;
+      }
+      
+      .right_menu {
             display: none;
       }
 
-      .demo .card {
+      .dropdown_menu {
+            display: block;
+      }
+
+      .demo .card.d_flex {
             flex-direction: column;
+            align-items: center;
+      }
+
+      .card_bio {
+            padding: 20px 0;
+      }
+
+      .card_image {
+            align-self: flex-start;
+      }
+      
+      .card_bio,
+      .card_image {
+            width: 80%;
+      }
+
+      .card_image > img {
+            width: 100%;
+            margin-top: 2rem;
+      }
+
+      .planning > .container > .row > .col_12 {
+            width: 100%;
+      }
+
+      .planning .row {
+            padding: 1rem;
+      }
+
+      .card_planning {
+            width: 100%;
+            margin-top: 2rem;
+      }
+
+      .card_partner {
+            flex-direction: row;
+      }
+
+
+      .bio_partner {
+            padding-top: 1.5rem;
+      }
+
+      .avatar_about > i {
+            right: 10%;
+            font-size: xxx-large;
+      }
+      
+      .btn_about_us {
+            font-size: 1rem;
+      }
+      
+      .container_slim_top,
+      .container_slim_bottom {
+            max-width: 732px;
+            width: 80%;
+      }
+}
+
+@media screen and (min-width: 899px) {
+      .col_2 {
+            width: calc((100% / 12) * 2);
+      }
+
+      .col_lg_4 {
+            width: calc(100% / 12 * 4);
       }
 }
 
