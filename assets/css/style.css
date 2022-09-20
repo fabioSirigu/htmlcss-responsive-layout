@@ -659,14 +659,15 @@ a.btn {
       
       .container_slim_top,
       .container_slim_bottom {
-            max-width: 732px;
-            
+            max-width: 732px;     
       }
 }
 
 @media screen and (min-width: 1200px) {
 
-      .container {
+      .container,
+      .container_slim_top,
+      .container_slim_bottom {
             max-width: 1140px;
       }
 
@@ -694,6 +695,10 @@ a.btn {
       .card_bio {
             padding: 20px;
       }
+
+      .card_image {
+            align-self: flex-end;
+      }
       
       .planning .col_lg_6 {
             width: 50%;
@@ -716,6 +721,7 @@ a.btn {
       .btn_about_us {
             font-size: 1.2rem;
       }
+
 
 }
 
