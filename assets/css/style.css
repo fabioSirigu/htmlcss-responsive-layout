@@ -131,6 +131,7 @@ h3 {
 .text_center {
       text-align: center;
 }
+
 /* #endregion Utilities */
 
 /* #region Header */
@@ -184,6 +185,9 @@ a.btn {
       color: var(--darkness);
 }
 
+.right_menu li:last-child {
+      padding: 0;
+}
 /* #endregion Header */
 
 /* #region Main */
@@ -197,10 +201,7 @@ a.btn {
       background-color: var(--secondary);
 }
 
-.container_slim {
-      width: 60%;
-      margin: 0 auto;
-}
+
 
 /* #region Demo */
 
@@ -413,6 +414,66 @@ a.btn {
       border-radius: 15px;
 }
 /* #endregion AboutUs */
+
+/* #region CallToAction */
+
+.container_slim_top,
+.container_slim_bottom {
+      margin: 0 auto;
+      text-align: center;
+}
+
+
+.container_slim_top {
+      width: 60%;
+}
+
+.container_slim_bottom {
+      width: 25%;
+}
+.container_slim_top > h5,
+.container_slim_top > h3,
+.container_slim_top > h2,
+.container_slim_top > a,
+.call_to_action p {
+      padding: 1rem 0;
+      margin-bottom: 1rem;
+}
+
+.container_slim_top > h3 {
+      font-size: 40px;
+}
+
+.container_slim_top > h2 {
+      font-size: 60px;
+      color: var(--alert);
+}
+
+.container_slim_bottom .btn {
+      padding: 0.8rem 2.5rem;
+      border-radius: 2rem;
+}
+
+.container_slim_bottom > a {
+      color: var(--secondary);
+      font-size: 1.3rem;
+}
+.call_to_action p {
+      color: var(--light);
+}
+
+.container_slim_bottom > p > a {
+      color: var(--light);
+      text-decoration: underline;
+}
+
+.container_slim_bottom > p > i {
+      font-size: 0.2rem;
+      vertical-align: middle;
+}
+
+
+/* #endregion CallToAction */
 /* #endregion Main */
 
 /* #region footer */
