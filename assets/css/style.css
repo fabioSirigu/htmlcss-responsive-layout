@@ -430,6 +430,11 @@ a.btn {
       color: var(--secondary);
 }
 
+.bio_about_us > p {
+      margin: 1rem 0;
+      line-height: 2.5rem;
+}
+
 .btn_about_us {
       background-color: var(--secondary);
       color: var(--light);
@@ -466,6 +471,7 @@ a.btn {
 
 .container_slim_top > h3 {
       font-size: 40px;
+      color: var(--light);
 }
 
 .container_slim_top > h2 {
@@ -593,6 +599,17 @@ a.btn {
             padding-top: 1.5rem;
             text-align: center;
       }
+
+      .avatar_about > i {
+            right: 0;
+      }
+
+      .container_slim_top,
+      .container_slim_bottom {
+            max-width: 432px;
+            width: 80%;
+      }
+      
 }
 
 @media screen and (min-width:769px){
