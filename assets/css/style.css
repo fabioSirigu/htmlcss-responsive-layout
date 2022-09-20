@@ -462,7 +462,7 @@ a.btn {
       color: var(--light);
 }
 
-.container_slim_bottom > p > a {
+.call_to_action .container_slim_bottom > p > a {
       color: var(--light);
       text-decoration: underline;
 }
@@ -480,6 +480,16 @@ a.btn {
 
 #site_footer {
       background-color: var(--dark);
+}
+
+#site_footer .container_slim_bottom > p{
+      padding: 2rem 0;
+      color: var(--light);
+}
+
+#site_footer .container_slim_bottom > p > a{
+      color: var(--secondary);
+      text-decoration: underline;
 }
 
 /* #endregion footer */
